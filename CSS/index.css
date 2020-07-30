@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+body{
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+.contenedor{
+    margin: 5% auto;
+    padding: 3%;
+    width: 30%;
+    border: 0.5px solid;
+    border-radius: 5px;
+    border-color: #dfdfdf;
+}
+
+form{
+    width: 100%;
+}
+
+.correo_olvidado{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid;
+    color: #0087ff;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.mensaje1{
+    width: 100%;
+}
+.mensaje1 h6{
+    color: #575252;
+    font-size: 14px;
+}
+.incognito{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid;
+    color: #0087ff;
+    font-weight: 550;
+}
+.premensaje{
+    text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1100px){
+    .contenedor{
+        margin: 5% auto;
+        padding: 3%;
+        width: 40%;
+        border: 0.5px solid;
+        border-radius: 5px;
+        border-color: #dfdfdf;
+    }
+    
+} 
+/*-------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:820px){
+    .contenedor{
+        margin: 5% auto;
+        padding: 3%;
+        width: 50%;
+        border: 0.5px solid;
+        border-radius: 5px;
+        border-color: #dfdfdf;
+    }
+    
+} 
+/*-------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:376px){
+    .contenedor{
+        margin: 5% auto;
+        padding: 3%;
+        width: 90%;
+        border: 0px solid;
+    }
+    
+} 
+
+/*-------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:286px){
+    .contenedor{
+        margin: 5% auto;
+        padding: 3%;
+        width: 100%;
+        border: 0px solid;
+    }
+    
+} 
